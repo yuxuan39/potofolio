@@ -5,6 +5,9 @@ import NavPage from '../components/nav'
 import IntroductionPage from '../components/introduction'
 import ExperiencePage from '../components/experience'
 import PotofolioPage from '../components/protofolio'
+import SkillsPage from '../components/skills'
+import ResumePage from '../components/resume'
+import FooterPage from '../components/footer'
 
 {/*<Link to="/page-2/">Go to page 2</Link>*/}
 
@@ -14,6 +17,9 @@ const IndexPage = () => (
     <IntroductionPage />
     <ExperiencePage />
     <PotofolioPage />
+    <SkillsPage />
+    <ResumePage />
+    <FooterPage />
   </div>
 )
 

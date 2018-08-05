@@ -1,0 +1,16 @@
+.resume-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 112px 0;
+    button {
+        padding: 20px 40px;
+        background-color: #84b1ed;
+        border-radius: 8px;
+        p {
+            font-size: 28px;
+            font-weight: 500;
+            color: #fff;
+        }
+    }
+}
