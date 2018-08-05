@@ -1,0 +1,34 @@
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #84b1ed;
+    height: 80px;
+    position: fixed;
+    top:0;
+    z-index:1; 
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1024px;
+    .logo {
+        font-size: 36px;
+        margin-left: 40px;
+    }
+    a, a:visited {
+        line-height: 80px;
+        color: #fafafa;
+        font-weight: 500;
+        text-decoration: none;
+    }
+    div {
+        a {
+            font-size: 24px;
+            margin-right: 40px;
+        }
+    }
+}

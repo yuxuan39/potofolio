@@ -1,0 +1,59 @@
+.potofolio-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 56px 0;
+    .potofolio{
+        max-width: 994px;
+        padding: 0 4%;
+        .buttons-container {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 56px;
+            .button-container {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                background-color: #fff;
+                padding: 12px 16px;
+                border: 3px solid #84b1ed;
+                border-radius: 10px;
+                &:first-child {
+                    margin-right: 76px;
+                }
+                i {
+                    font-size: 20px;
+                    color: #84b1ed;
+                    margin-right: 8px;
+                }
+                p {
+                    font-size: 20px;
+                    font-weight: 700;
+                    color: #84b1ed;
+                }
+            }
+        }
+    }
+}
+
+.works {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    .work {
+        max-width: 284px;
+        text-align: center;
+        &:nth-child(1), &:nth-child(2), &:nth-child(3), &:nth-child(4), &:nth-child(5) {
+            margin-bottom: 48px;
+        }
+        img {
+            box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+        }
+        .work-title {
+            font-size: 18px;
+            font-weight: 500;
+            margin: 28px 0 8px 0;
+        }
+    }   
+} 

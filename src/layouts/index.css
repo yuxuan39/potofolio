@@ -1,0 +1,34 @@
+* {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #566270;
+  padding: 0;
+  margin: 0;
+}
+
+.bgc-default {
+  background-color: #fafafa;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 56px;
+}
+
+.content {
+  font-size: 24px;
+}
+
+.font-weight-500 {
+  font-weight: 500;
+}
+
+.margin-8-0-20-0 {
+  margin: 8px 0 20px 0;
+}
+
+.margin-40-0 {
+  margin: 40px 0;
+}

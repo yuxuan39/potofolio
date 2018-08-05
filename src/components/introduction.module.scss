@@ -1,0 +1,20 @@
+.introduction-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 565px;
+    .blank-space {
+        height: 80px;
+    }
+    .font-64px {
+        font-size: 64px;
+        font-weight: 700;
+    }
+      
+    .font-36px {
+        font-size: 36px;
+        font-weight: 500;
+        margin-top: 40px;
+    }
+}

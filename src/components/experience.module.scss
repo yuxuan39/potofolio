@@ -1,0 +1,22 @@
+.experience-container {
+    display: flex;
+    justify-content: center;
+    background-color: #f7e3a6;
+    padding: 56px 0;
+    .experience {
+        width: 662px;
+        .time-and-job {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            .time {
+                font-size: 20px;
+                white-space:nowrap;
+            }
+            .job {
+                width: 65%;
+                margin-left: 56px;
+            }
+        }
+    }
+}
