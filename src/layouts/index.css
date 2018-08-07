@@ -32,3 +32,10 @@
 .margin-40-0 {
   margin: 40px 0;
 }
+
+.anchor {
+  display: block;
+  position: relative;
+  top: -80px;
+  visibility: hidden;
+}

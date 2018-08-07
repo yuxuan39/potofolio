@@ -12,10 +12,10 @@ const NavPage = () => (
         Kaya
       </a>
       <div>
-        <a href="#">Experience</a>
-        <a href="#">Protofolio</a>
-        <a href="#">Skills</a>
-        <a href="#">Resume</a>
+        <a href="#experience">Experience</a>
+        <a href="#protofolio">Protofolio</a>
+        <a href="#skills">Skills</a>
+        <a href="#resume">Resume</a>
       </div>
     </nav>
   </div>

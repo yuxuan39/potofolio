@@ -6,11 +6,14 @@ import classnames from 'classnames/bind'
 const cx = classnames.bind(style)
 
 const ResumePage = () => (
-  <div className={cx('resume-container', 'bgc-default')}>
-    <button>
-      <p>Download & View</p>
-      <p>Resume</p>
-    </button>
+  <div>
+    <div className={'anchor'} id={'resume'} />
+    <div className={cx('resume-container', 'bgc-default')}>
+      <button>
+        <p>Download & View</p>
+        <p>Resume</p>
+      </button>
+    </div>
   </div>
 )
 
